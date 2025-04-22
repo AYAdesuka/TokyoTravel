@@ -1,0 +1,42 @@
+.header
+{
+    position: fixed;
+    width: 100%;
+    margin-top: 30px;
+    background-color:rgba(255, 255, 255, 0)
+}
+
+.header__inner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav
+{
+    flex: 1;
+}
+
+.header__nav:first-child .header__list
+{
+    justify-content: flex-end;
+}
+
+
+.header__list
+{
+    display: flex; 
+    gap: 60px;
+}
+
+.header__link
+{
+    font-size: 24px;
+    color:white;
+}
+
+.logo
+{
+    margin: 0 90px;
+}
