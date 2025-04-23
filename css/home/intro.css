@@ -1,0 +1,23 @@
+.intro
+{   
+    display: flex;
+    height: 100vh;
+    background-image: url('../../images/backgroudn.jpg');
+    background-size: cover;
+    justify-content: center;
+}
+
+.intro__container
+{
+    max-width: 770px;
+    margin:auto;   
+    top: 50%;
+    left: 50%;
+}
+
+.intro__text
+{
+    color:var(--White);
+    font-size:50px;
+    text-align: center;
+}

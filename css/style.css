@@ -1,5 +1,8 @@
 @import 'vendor/_reset.css';
 @import 'vendor/_global.css';
+@import 'vendor/_vars.css';
 
 
 @import 'components/_header.css';
+
+@import 'home/intro.css';
