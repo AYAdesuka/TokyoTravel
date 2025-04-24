@@ -4,5 +4,7 @@
 
 
 @import 'components/_header.css';
+@import 'components/_button.css';
 
 @import 'home/intro.css';
+@import 'home/_japanadvantages.css';

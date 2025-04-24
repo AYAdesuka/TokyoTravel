@@ -1,12 +1,65 @@
 .header
 {
     position: fixed;
+    top: 30px;
+    left: 0;
     width: 100%;
-    margin-top: 30px;
-    background-color:rgba(255, 255, 255, 0)
+    z-index: 100;
 }
 
 .header__inner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header__nav
+{
+    flex: 1;
+}
+
+.header__list
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: var(--White);
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.header__inner
 {
     display: flex;
     justify-content: space-between;
@@ -39,4 +92,4 @@
 .logo
 {
     margin: 0 90px;
-}
+}*/

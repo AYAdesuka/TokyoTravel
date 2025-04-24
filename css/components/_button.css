@@ -1,0 +1,18 @@
+.tourButton
+{   
+    max-width: 320px;
+    background-color: rgba(255, 255, 255, 0.616);
+    backdrop-filter: blur(1 px);
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--Black);
+    padding: 20px 30px;
+    transition: .7s;
+}
+
+.tourButton:hover
+{
+    color: var(--White);
+    background-color: rgba(0, 0, 0, 0.616);
+    border: 1px solid var(--White);
+}
