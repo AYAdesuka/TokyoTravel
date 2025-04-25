@@ -35,6 +35,8 @@
 
 .intro__text
 {
+    font-family: var(--poppins);
+    line-height: 1.4;
     color:var(--White);
     font-size:50px;
     font-weight: 500;

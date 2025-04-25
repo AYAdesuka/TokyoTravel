@@ -1,6 +1,7 @@
 .tourButton
 {   
     max-width: 320px;
+    font-family: var(--lato);
     background-color: rgba(255, 255, 255, 0.616);
     backdrop-filter: blur(1 px);
     font-size: 20px;
