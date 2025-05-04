@@ -1,0 +1,95 @@
+.our__awards
+{
+    margin-top: 100px;
+}
+
+.title__awards
+{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--Black);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.title__awards::after
+{
+    content: "";
+    display: block;
+    background-color: var(--Grey);
+    height: 3px;
+    width: 1200px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom: 20px;
+}
+
+.awards__container
+{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+    justify-items: center;
+    gap: 50px;
+}
+
+
+
+.award__inner
+{
+    max-width: 350px;
+    transition: .5s;
+}
+
+.award__img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+
+.image__wrapper
+{
+    position: relative;
+    width: 350px;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+.image__wrapper::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition:0.3s;
+}
+
+.award__inner:hover
+{
+    transform: scale(1.05);
+}
+
+.award__inner:hover .image__wrapper::after
+{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.award__name
+{
+    font-size: 20px;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color:var(--Black)
+}

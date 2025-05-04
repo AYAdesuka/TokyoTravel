@@ -1,0 +1,159 @@
+.our__advantages
+{
+    margin-top: 100px;
+}
+
+.title__advantages
+{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--Black);
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.title__advantages::after
+{
+    content: "";
+    display: block;
+    background-color: var(--Grey);
+    height: 3px;
+    width: 1200px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+}
+
+.advantages__inner
+{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.advantages__card
+{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    text-align: center;
+}
+
+.title__advantages__card
+{
+    font-size: 20px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.text__advantages__card
+{
+    font-size: 18px;
+    font-family: var(--lato);
+    color: var(--Grey);
+    font-weight: 500;
+}
+
+.img__advantages
+{
+    height: 40px;
+    width: 40px;
+}
+
+/* OUR CONTACT */
+
+
+.our__contact
+{
+    margin-top: 100px;
+}
+
+.title__contact
+{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+    font-family: var(--poppins);
+    color: var(--Black);
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.title__contact::after
+{
+    content: "";
+    display: block;
+    background-color: var(--Grey);
+    height: 3px;
+    width: 1200px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 5px;
+}
+
+
+.contact__inner
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__list
+{
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.contact__example
+{
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    gap: 10px;
+}
+
+
+.text__contact
+{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--lato);
+}
+
+.text__contact-special
+{
+    margin-top: 10px;
+}
+
+
+.img__contact
+{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+
+.img__office
+{
+    border-radius: 10px;
+    width: 600px;
+    height: 320px;
+}
+
+
+.google__map
+{
+    margin-top: 50px;
+}

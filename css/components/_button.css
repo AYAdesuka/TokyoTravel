@@ -17,3 +17,21 @@
     background-color: rgba(0, 0, 0, 0.616);
     border: 1px solid var(--White);
 }
+
+.banner__button
+{
+    margin-top:10px;
+    font-size: 20px;
+    font-family: var(--lato);
+    color: var(--Black);
+    padding: 10px 25px;
+    background-color: rgba(255, 249, 249, 0.757);
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.banner__button:hover
+{
+    scale: 1.02;
+}

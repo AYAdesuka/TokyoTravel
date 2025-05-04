@@ -1,0 +1,129 @@
+.tour__offer
+{
+    display: flex;
+    margin-top: 150px;
+}
+
+.tour__grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.title4tour
+{
+        max-width: 400px;
+        font-size: 24px;
+        font-family: var(--lato);
+        font-weight: 500;
+        position: relative;
+        text-align: center;
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+}
+
+.title4tour::after
+{
+    content:"";
+    display: block;
+    background-color: var(--Grey);
+    position: absolute;
+    width: 400px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+}
+
+.tour__column
+{
+    display: flex;
+    max-width: 400px;
+    flex-direction: column;
+}
+
+.tour__column:first-child
+{
+    gap:0px;
+}
+
+.card__tour
+{
+    position: relative;
+    overflow: hidden;
+}
+
+.card__tour:not(:first-child)
+{
+    margin-bottom: 15px;
+}
+
+.card__img 
+{
+    width: 100%;
+    height: 280px;
+    display: block;
+}
+
+.card__tour-stats
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--White);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.name__card
+{
+    font-size: 16px;
+    font-family: var(--lato);
+}
+
+.card__interactions
+{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-size: 16px;
+    font-family: var(--lato);
+}
+
+.card__like, .card__commentos
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.svg__commentos 
+{
+    width: 16px;
+    height: 16px;
+}
+
+.svg__like
+{
+    width: 25px;
+    height: 25px;
+}
+
+.card__tour-link
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+

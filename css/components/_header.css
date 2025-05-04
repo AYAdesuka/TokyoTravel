@@ -19,58 +19,6 @@
     flex: 1;
 }
 
-.header__list
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    color: var(--White);
-    font-size: 24px;
-    font-family: var(--lato);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.header__inner
-{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header__nav
-{
-    flex: 1;
-}
-
 .header__nav:first-child .header__list
 {
     justify-content: flex-end;
@@ -87,9 +35,10 @@
 {
     font-size: 24px;
     color:white;
+    font-family: var(--lato);
 }
 
 .logo
 {
     margin: 0 90px;
-}*/
+}

@@ -4,7 +4,8 @@
 @import 'vendor/_fonts.css';
 
 @import 'components/_header.css';
-@import 'components/_button.css';
+@import 'components/_footer.css';
 
-@import 'home/_intro.css';
-@import 'home/_japanadvantages.css';
+@import 'home/_introjrpass.css';
+@import 'home/_whatjrpass.css';
+@import 'home/_whyjrpass.css';

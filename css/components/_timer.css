@@ -1,0 +1,21 @@
+.banner__timer {
+    margin-top: 20px;
+    color: var(--White);
+    font-family: var(--lato);
+    text-align: center;
+    font-size: 20px;
+}
+
+.timer__digits {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.timer__digits span {
+    display: inline-block;
+    min-width: 40px;
+}
