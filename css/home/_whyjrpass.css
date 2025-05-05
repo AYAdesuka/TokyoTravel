@@ -2,3 +2,25 @@
 {
     margin-top: 100px;
 }
+
+.text__inner
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.text__why-jrpass
+{
+    font-size: 20px;
+    font-family: var(--lato);
+    font-weight: 700;
+    color: var(--Black);
+}
+
+.text__discription
+{
+    font-size: 18px;
+    font-family: var(--lato);
+    color: var(--Grey);
+    font-weight: 500;
+}
