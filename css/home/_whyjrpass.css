@@ -44,8 +44,8 @@
   .line-box::before
 {
     content: "";
-    width: 20px; /* Длина черточки */
-    height: 1px; /* Толщина */
+    width: 20px;
+    height: 1px;
     background: #000;
-    margin-right: 10px; /* Отступ от текста */
+    margin-right: 10px;
 }

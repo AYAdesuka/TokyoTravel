@@ -1,0 +1,67 @@
+.main__info-jrpass
+{
+    background-image: url('../../images/shikanen(fudjiyama).jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+
+.main__info-jrpass::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.main__info-title
+{
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: var(--poppins);
+    text-align: center;
+    color: var(--White);
+    padding-top: 20px;
+    z-index: 52;
+}
+
+.main__info-inner
+{
+    position: relative;
+    padding-top: 60px;
+    z-index: 52;
+}
+
+.main__info-text
+{
+    font-size: 24px;
+    color: var(--White);
+    font-family: var(--lato);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.main__info-text:last-child
+{
+    margin-bottom: 0;
+}
+
+
+.main__info-text::before
+{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 2px;
+    background: var(--White);
+}
+

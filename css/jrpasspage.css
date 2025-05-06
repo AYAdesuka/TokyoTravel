@@ -5,7 +5,10 @@
 
 @import 'components/_header.css';
 @import 'components/_footer.css';
+@import 'components/_button.css';
 
 @import 'home/_introjrpass.css';
 @import 'home/_whatjrpass.css';
 @import 'home/_whyjrpass.css';
+@import 'home/_maininfo.css';
+@import 'home/_actuallprice.css';

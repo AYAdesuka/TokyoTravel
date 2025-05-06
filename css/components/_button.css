@@ -35,3 +35,22 @@
 {
     scale: 1.02;
 }
+
+.jrpass__button
+{
+    font-family: var(--lato);
+    background-color: rgba(255, 255, 255, 0);
+    backdrop-filter: blur(1 px);
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid var(--Black);
+    padding: 10px;
+    transition: .7s;
+}
+
+.jrpass__button:hover
+{
+    background-color: rgb(75, 75, 75);
+    color: var(--White);
+    scale: 1.05;
+}
