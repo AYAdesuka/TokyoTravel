@@ -1,0 +1,10 @@
+@import 'vendor/_reset.css';
+@import 'vendor/_global.css';
+@import 'vendor/_vars.css';
+@import 'vendor/_fonts.css';
+
+@import 'components/_header.css';
+@import 'components/_footer.css';
+
+@import 'home/_introfortourists.css';
+
