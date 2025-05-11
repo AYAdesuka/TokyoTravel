@@ -1,10 +1,25 @@
 .header
 {
-    position: fixed;
+    position: fixed;    
     top: 30px;
     left: 0;
     width: 100%;
     z-index: 100;
+    transition: .7s;
+}
+
+
+.header.--scroll .header__link
+{
+    color: var(--Black);
+}
+
+.header.--scroll .header__inner
+{
+    background-color: rgba(255, 168, 168, 0.15);
+    border: solid 0.5px var(--Black);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
 }
 
 .header__inner
@@ -12,7 +27,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
+
 
 .header__nav
 {
@@ -36,6 +53,7 @@
     font-size: 24px;
     color:white;
     font-family: var(--lato);
+    transition: .7s;
 }
 
 .logo

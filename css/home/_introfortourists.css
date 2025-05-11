@@ -69,4 +69,145 @@
     margin-top: 5px;
 }
 
-.
+
+
+.title__tourists-card
+{
+    font-size: 40px;
+    font-family: var(--poppins);
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.title__tourists-card:first-child
+{
+    margin-top: 0;
+}
+
+.tourists-grid
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.tourists-grid-2E
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap:200px;
+}
+
+.just-link
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.four__tourists-card
+{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .7s;
+}
+
+.four__tourists-card::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.four__tourists-card:hover
+{
+    scale: 1.05;
+}
+
+.hakone 
+{
+    background-image: url('../../images/Hakone.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nagano
+{
+    background-image: url('../../images/Nagano.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tateyama
+{
+    background-image: url('../../images/Tateyama.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.okinawa
+{
+    background-image: url('../../images/okinawa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.kamakura
+{
+    background-image: url('../../images/kamakura.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.kioto
+{
+    background-image: url('../../images/kioto(grid).jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.nara
+{
+    background-image: url('../../images/nara.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+.kanadzawa
+{
+    background-image: url('../../images/kanadzawa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+
+.name__card
+{
+    font-size: 24px;
+    color: var(--White);
+    font-family: var(--poppins);
+    position:absolute;
+    bottom:0;
+    padding: 30px;
+    z-index: 52;
+}
+
