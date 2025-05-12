@@ -54,3 +54,24 @@
     color: var(--White);
     scale: 1.05;
 }
+
+.control-btn
+{
+    font-family: var(--lato);
+    padding: 10px 15px;
+    border: 1px solid var(--Black);
+    border-radius: 10px;
+    transition: .7s;
+}
+
+.control-btn:hover
+{
+    background-color: rgba(255, 168, 168, 0.15);
+    scale: 1.05;
+}
+
+.control-btn:focus
+{
+    background-color: rgba(255, 168, 168, 0.15);
+    scale: 1.05;
+}   

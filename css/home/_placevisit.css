@@ -1,0 +1,13 @@
+.place__visit
+{
+    font-size: 24px;
+    font-family: var(--lato);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.place__visit-btn
+{
+    display: flex;
+    gap:20px;
+}

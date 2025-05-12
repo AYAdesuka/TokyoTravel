@@ -4,4 +4,7 @@
 @import 'vendor/_fonts.css';
 
 @import 'components/_header.css';
+@import 'components/_button.css';
 @import 'components/_footer.css';
+
+@import 'home/_placevisit.css';
