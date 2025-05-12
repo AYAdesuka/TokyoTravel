@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
   let isScrolling;
   window.addEventListener('scroll', function() {
     window.clearTimeout(isScrolling);
-    isScrolling = setTimeout(checkScroll, 1);
+    isScrolling = setTimeout(checkScroll, 0);
   }, { passive: true });
 });

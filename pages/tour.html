@@ -52,19 +52,250 @@
             </div>
         </div>
     </header>
-<main class="main">
+<main class="main"> 
     <section class="section">
         <div class="container">
         <h1 class="title all__tour">Все туры</h1>
-        <div class="controls">
-            <p class="place__visit">Посещаемый город:</p>
-            <div class="place__visit-btn">
-            <button class="control-btn">Tokyo</button>
-            <button class="control-btn">Shirokawa</button>
-            <button class="control-btn">Nahano</button>
-            <button class="control-btn">Shibuya</button>
-            <button class="control-btn">Okinawa</button>
-        </div>
+            <div class="controls">
+                <p class="place__visit">Посещаемый город:</p>
+                <div class="place__visit-btn">
+                    <button class="control-btn" data-city="Tokyo">Tokyo</button>
+                    <button class="control-btn" data-city="Kioto">Kioto</button>
+                    <button class="control-btn" data-city="Shirokawa">Shirokawa</button>
+                    <button class="control-btn" data-city="Nahano">Nahano</button>
+                    <button class="control-btn" data-city="Shibuya">Shibuya</button>
+                    <button class="control-btn" data-city="Okinawa">Okinawa</button>
+                    <button class="control-btn" data-city="Osaka">Osaka</button>
+                    <button class="control-btn" data-city="Nara">Nara</button>
+                </div>
+            </div>
+        <div class="grid__container-card">
+            <div class="tour__card" data-cities="Tokyo Hakone Kioto Nara Osaka">
+                <a href="#">
+                <img src="../images/tokyo(preview).jpg" class="img__card-tour">
+                <p class="title__tour-card">Золотое кольцое Японии</p>
+                <div class="tour__discription">
+                    <img src="../images/icons/group.png" class="type__icon">
+                    <p class="type__tour">Групповой</p>
+                </div>
+                <div class="tour__discription">
+                    <img src="../images/icons/clock.png" class="type__icon">
+                    <p class="type__tour">7 Дней</p>
+                </div>
+                <div class="tour__card-price">
+                    <p class="tour__card-discription">Цена: 250 000(¥)</p>
+                    <div class="tour__interest">
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="tour__card">
+                <a href="#">
+                <img src="../images/Akiba_denkigai.jpg" class="img__card-tour">
+                <p class="title__tour-card">Аниме-паломничество</p>
+                <div class="tour__discription">
+                    <img src="../images/icons/group.png" class="type__icon">
+                    <p class="type__tour">Групповой</p>
+                </div>
+                <div class="tour__discription">
+                    <img src="../images/icons/clock.png" class="type__icon">
+                    <p class="type__tour">10 Дней</p>
+                </div>
+                <div class="tour__card-price">
+                    <p class="tour__card-discription">Цена: 250 000(¥)</p>
+                    <div class="tour__interest">
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="tour__card">
+                <a href="#">
+                <img src="../images/sushi.jpg" class="img__card-tour">
+                <p class="title__tour-card">Гастрономическое путешествие</p>
+                <div class="tour__discription">
+                    <img src="../images/icons/human.png" class="type__icon">
+                    <p class="type__tour">Индивидуальный</p>
+                </div>
+                <div class="tour__discription">
+                    <img src="../images/icons/clock.png" class="type__icon">
+                    <p class="type__tour">5 Дней</p>
+                </div>
+                <div class="tour__card-price">
+                    <p class="tour__card-discription">Цена: 159 999(¥)</p>
+                    <div class="tour__interest">
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="tour__card">
+                <a href="#">
+                <img src="../images/shirokawa.jpg" class="img__card-tour">
+                <p class="title__tour-card">Экотур "Япония без толп"</p>
+                <div class="tour__discription">
+                    <img src="../images/icons/group.png" class="type__icon">
+                    <p class="type__tour">Групповой</p>
+                </div>
+                <div class="tour__discription">
+                    <img src="../images/icons/clock.png" class="type__icon">
+                    <p class="type__tour">14 Дней</p>
+                </div>
+                <div class="tour__card-price">
+                    <p class="tour__card-discription">Цена: 319 999(¥)</p>
+                    <div class="tour__interest">
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="tour__card">
+                <a href="#">
+                <img src="../images/hokkaido.jpg" class="img__card-tour">
+                <p class="title__tour-card">Зимнее приключение</p>
+                <div class="tour__discription">
+                    <img src="../images/icons/group.png" class="type__icon">
+                    <p class="type__tour">Групповой</p>
+                </div>
+                <div class="tour__discription">
+                    <img src="../images/icons/clock.png" class="type__icon">
+                    <p class="type__tour">8 Дней</p>
+                </div>
+                <div class="tour__card-price">
+                    <p class="tour__card-discription">Цена: 149 999(¥)</p>
+                    <div class="tour__interest">
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="tour__card">
+                <a href="#">
+                <img src="../images/iga-ueno.jpg" class="img__card-tour">
+                <p class="title__tour-card">Тур "Легенды ниндзя"</p>
+                <div class="tour__discription">
+                    <img src="../images/icons/family.png" class="type__icon">
+                    <p class="type__tour">Семейный</p>
+                </div>
+                <div class="tour__discription">
+                    <img src="../images/icons/clock.png" class="type__icon">
+                    <p class="type__tour">12 Дней</p>
+                </div>
+                <div class="tour__card-price">
+                    <p class="tour__card-discription">Цена: 250 000(¥)</p>
+                    <div class="tour__interest">
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="tour__card">
+                <a href="#">
+                <img src="../images/okinawa.jpg" class="img__card-tour">
+                <p class="title__tour-card">Окинава — японские тропики</p>
+                <div class="tour__discription">
+                    <img src="../images/icons/group.png" class="type__icon">
+                    <p class="type__tour">Групповой</p>
+                </div>
+                <div class="tour__discription">
+                    <img src="../images/icons/clock.png" class="type__icon">
+                    <p class="type__tour">7 Дней</p>
+                </div>
+                <div class="tour__card-price">
+                    <p class="tour__card-discription">Цена: 499 000(¥)</p>
+                    <div class="tour__interest">
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="tour__card">
+                <a href="#">
+                <img src="../images/osen.jpg" class="img__card-tour">
+                <p class="title__tour-card">Тур "Путь самурая"</p>
+                <div class="tour__discription">
+                    <img src="../images/icons/group.png" class="type__icon">
+                    <p class="type__tour">Групповой</p>
+                </div>
+                <div class="tour__discription">
+                    <img src="../images/icons/clock.png" class="type__icon">
+                    <p class="type__tour">12 Дней</p>
+                </div>
+                <div class="tour__card-price">
+                    <p class="tour__card-discription">Цена: 329 999(¥)</p>
+                    <div class="tour__interest">
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div class="tour__card">
+                <a href="#">
+                <img src="../images/naka.jpg" class="img__card-tour">
+                <p class="title__tour-card">Романтический тур</p>
+                <div class="tour__discription">
+                    <img src="../images/icons/family.png" class="type__icon">
+                    <p class="type__tour">Семейный</p>
+                </div>
+                <div class="tour__discription">
+                    <img src="../images/icons/clock.png" class="type__icon">
+                    <p class="type__tour">10 Дней</p>
+                </div>
+                <div class="tour__card-price">
+                    <p class="tour__card-discription">Цена: 299 999(¥)</p>
+                    <div class="tour__interest">
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                        <div class="ellipse"></div>
+                    </div>
+                </div>
+                </a>
+            </div>
         </div>
     </div>
 </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__block">
+            <p class="footer__name">SAKURA TRAVEL</p>
+            <div class="contact__footer">
+                <img src="../images/icons/whatsapp.png" class="whatsap-icon">
+                <img src="../images/icons/snapchat.png" class="snapchat-icon">
+                <img src="../images/icons/facebook.png" class="facebook-icon">
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+<script src="../js/buttonfocus.js"></script>
+</html>

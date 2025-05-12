@@ -1,3 +1,9 @@
+.all__tour
+{
+    margin-top: 180px;
+}
+
+
 .place__visit
 {
     font-size: 24px;
@@ -10,4 +16,109 @@
 {
     display: flex;
     gap:20px;
+}
+
+.grid__container-card
+{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 80px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.tour__card
+{
+    max-width: 350px;
+    border: 1px solid var(--Black);
+    padding: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.tour__card.hidden {
+  opacity: 0;
+  transform: scale(0.9);
+  height: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden; 
+}
+
+.tour__card.visible
+{
+  display: block;
+}
+
+.img__card-tour
+{
+    width: 330px;
+    height: 210px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.title__tour-card
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-family: var(--lato);
+}
+
+.tour__discription
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.type__icon
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.type__tour
+{
+    font-size: 16px;
+    font-family: var(--lato);
+    color: var(--Grey);
+}
+
+.tour__card-price
+{
+    display: flex;
+    margin-top: 20px;
+    border-top: 2px solid var(--Grey);
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.tour__card-discription
+{
+    font-size: 16px;
+    font-family: var(--lato);
+    color: var(--Black);
+    text-align: center;
+}
+
+.tour__interest
+{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.ellipse
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1.5px solid var(--Black);
+    background-color: yellow;
 }
