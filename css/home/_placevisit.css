@@ -1,3 +1,9 @@
+.section__card
+{
+    margin-bottom: 100px;
+}
+
+
 .all__tour
 {
     margin-top: 180px;
@@ -36,13 +42,24 @@
     transition: .3s;
 }
 
-.tour__card.hidden {
-  opacity: 0;
-  transform: scale(0.9);
-  height: 0;
-  padding: 0;
-  margin: 0;
-  overflow: hidden; 
+.tour__card:hover
+{
+    scale: 1.05;
+}
+
+.tour__card.hidden
+{
+    position: absolute;
+    opacity: 0;
+    transform: scale(0.9);
+    pointer-events: none;
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    visibility: hidden;
+    z-index: -1;
 }
 
 .tour__card.visible

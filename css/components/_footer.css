@@ -1,9 +1,10 @@
 .footer {
-    margin-top: 150px;
+    margin-top: auto;
     background-color: var(--Grey4footer);
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     padding: 20px 0;
+    
 }
 
 .footer__block
