@@ -66,10 +66,12 @@
 .header__btn
 {
     display: none;
-    position: relative;
+    position: absolute;
+    top: 7px;
+    padding: auto;
     z-index: 9999;
     padding: 10px;
-    margin: 0 80%;
+    margin: 0 85%;
 }
 
 
@@ -128,7 +130,7 @@
 {
     font-size: 24px;
     color:white;
-    font-family: var(--lato);
+    font-family: var(--poppins);
     transition: .7s;
 }
 
@@ -192,5 +194,21 @@
     .header__link
     {
         color: var(--Black);
+    }
+}
+
+@media (max-width:550px)
+{
+    .header__btn
+    {
+        margin: 0 80%;
+    }
+}
+
+@media (max-width:390px)
+{
+    .header__btn
+    {
+        margin: 0 75%;
     }
 }

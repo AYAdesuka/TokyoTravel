@@ -13,14 +13,14 @@
 </head>
 
 <body class="body">
-    <header class="header">
+    <header class="header --scroll">
         <div class="container">
-            <div class="header__inner">
+            <div class="header__inner --scroll">
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__link">
-                            <a href="pages/tour.html">Новости</a>
-                        </li>
+                            <a href="news.html">Новости</a>
+                        </li class="header__link">
                         <li class="header__link">
                             <a href="fortourists.html">Для туристов</a>
                         </li>
@@ -50,6 +50,57 @@
                     </ul>
                 </nav>
             </div>
+                    <button class="header__btn" id="menuBtn" type="button">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </button>
         </div>
-    </header>
+    <nav class="header__menu" id="menu">
+        <ul class="header__list--mobile">
+            <li class="header__link">
+                <a href="news.html">Новости</a>
+            </li>
+            <li class="header__link">
+                <a href="fortourists.html">Для туристов</a>
+            </li>
+            <li class="header__link">
+                <a href="#">Виза</a>
+            </li>
+            <li class="header__link">
+                <a href="jrpass.html">JR Pass</a>
+            </li>
+            <li class="header__link">
+                <a href="aboutus.html">О нас</a>
+            </li>
+            <li class="header__link">
+                <a href="tour.html">Туры</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 <main class="main">
+    <section class="section-180px">
+        <div class="container">
+            <h1 class="title__special">
+                Новости
+            </h1>
+            <div class="wrapper__news">
+                <img src="../images/news/fujiyama.jpg" alt="NHK News" class="img__news">
+                <div class="news__preview-text">
+                    <p class="title__news">Префектура Сидзуока вводит новые правила для совершающих восхождение на гору Фудзи</p>
+                    <p class="subtitle__news">В находящейся в центральной части Японии префектуре Сидзуока, где проходит тропа к вершине горы Фудзи, было принято постановление в связи с рискованным поведением некоторых людей, совершающих восхождение.</p>
+                    <div class="button__wrapper">
+                    <button class="newsButton">Читать</button>
+                    <p class="date__published">Обновлено 6ч назад</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+</body>
+
+<script src="../js/HeaderMobileMenu.js"></script>
+</html>

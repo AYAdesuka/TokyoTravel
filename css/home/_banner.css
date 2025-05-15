@@ -43,6 +43,7 @@
 
 .banner__title
 {
+    animation: animateTitle linear alternate 6s infinite;
     font-size: 40px;
     text-align: center;
     color: var(--White);
@@ -93,3 +94,12 @@
 
 }
 
+@keyframes animateTitle {
+    0% {
+        transform: translateY(-50px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

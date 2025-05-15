@@ -5,6 +5,7 @@
     justify-content: space-between;
     margin-bottom: 40px;
     margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 
@@ -28,6 +29,7 @@
     height: 5px;
     bottom: 0;
     left: 0;
+    
 }
 
 
@@ -176,6 +178,7 @@
     
     .title4card::after
     {
+        width: 250px;
         height: 3px;
     }
     
@@ -196,12 +199,6 @@
     .title4card
     {
         font-size: 20px;
-    }
-
-    .title4card::after
-    {
-        width: 250px;
-        height: 3px;
     }
 
     .inspiration__view-all

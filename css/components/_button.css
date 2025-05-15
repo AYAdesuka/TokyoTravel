@@ -75,3 +75,21 @@
     background-color: rgba(255, 168, 168, 0.15);
     scale: 1.05;
 }   
+
+
+.newsButton
+{   
+    max-width: 100px;
+    font-family: var(--lato);
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--Black);
+    padding: 10px 15px;
+    transition: .7s;
+}
+
+.newsButton:hover
+{
+    scale: 1.1;
+}

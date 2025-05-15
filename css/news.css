@@ -5,3 +5,6 @@
 
 @import 'components/_header.css';
 @import 'components/_footer.css';
+@import 'components/_button.css';
+
+@import 'home/_news.css';

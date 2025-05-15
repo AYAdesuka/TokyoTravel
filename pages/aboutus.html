@@ -20,7 +20,7 @@
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__link">
-                            <a href="pages/tour.html">Новости</a>
+                            <a href="news.html">Новости</a>
                         </li class="header__link">
                         <li class="header__link">
                             <a href="fortourists.html">Для туристов</a>
@@ -51,8 +51,35 @@
                     </ul>
                 </nav>
             </div>
+                    <button class="header__btn" id="menuBtn" type="button">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </button>
         </div>
-    </header>
+    <nav class="header__menu" id="menu">
+        <ul class="header__list--mobile">
+            <li class="header__link">
+                <a href="pages/tour.html">Новости</a>
+            </li>
+            <li class="header__link">
+                <a href="pages/fortourists.html">Для туристов</a>
+            </li>
+            <li class="header__link">
+                <a href="#">Виза</a>
+            </li>
+            <li class="header__link">
+                <a href="pages/jrpass.html">JR Pass</a>
+            </li>
+            <li class="header__link">
+                <a href="pages/aboutus.html">О нас</a>
+            </li>
+            <li class="header__link">
+                <a href="pages/tour.html">Туры</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 <main class="main">
     <section class="intro">
         <div class="intro__container">
@@ -272,4 +299,5 @@
 </footer>
 </body>
 <script src="../js/headerscroll.js"></script>
+<script src="../js/HeaderMobileMenu.js"></script>
 </html>
