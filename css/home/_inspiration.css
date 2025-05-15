@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 40px;
+    margin: 0 auto;
 }
 
 
@@ -47,6 +48,7 @@
     display: grid;
     grid-template-columns: repeat(6,1fr);
     grid-gap: 10px;
+    margin: 0 auto;
 }
 
 .inspiration__card
@@ -121,4 +123,199 @@
     width: 100%;
     height: 100%;
     z-index: 43;
+}
+
+@media (max-width:1230px)
+{
+    .inspiration__cards
+    {
+        max-width: 990px;
+    }
+
+    .inspiration__text
+    {
+        max-width: 990px;
+    }
+    
+    .title4card
+    {
+        font-size: 32px;
+    }
+
+    .inspiration__view-all
+    {
+        font-size: 18px;
+    }
+
+    .inspiration__text
+    {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:800px)
+{
+    .inspiration__picture-top
+    {   
+        height: 300px;
+    }
+    .inspiration__picture-bottom
+    {
+        height: 200px;
+    }
+}
+
+
+@media (max-width:750px)
+{
+    .title4card
+    {
+        font-size: 26px;
+        padding-bottom: 0;
+    }
+    
+    .title4card::after
+    {
+        height: 3px;
+    }
+    
+    .inspiration__card-title
+    {
+        font-size: 32px;
+    }
+    
+    .inspiration__picture-top
+    {   
+        height: 220px;
+    }
+    .inspiration__picture-bottom
+    {
+        height: 150px;
+    }
+    
+    .title4card
+    {
+        font-size: 20px;
+    }
+
+    .title4card::after
+    {
+        width: 250px;
+        height: 3px;
+    }
+
+    .inspiration__view-all
+    {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:600px)
+{
+    .inspiration__picture-top
+    {   
+        height: 180px;
+    }
+    .inspiration__picture-bottom
+    {
+        height: 120px;
+    }
+    
+    .inspiration__card-title
+    {
+        font-size: 26px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+}
+
+@media (max-width:505px)
+{
+    .title4card
+    {
+        font-size: 16px;
+    }
+    .inspiration__card-title
+    {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width:440px)
+{
+    .inspiration__picture-top
+    {   
+        height: 130px;
+    }
+
+    .inspiration__picture-bottom
+    {
+        height: 90px;
+    }
+
+    .inspiration__text
+    {
+        margin-bottom: 10px;
+    }
+
+    .title4card
+    {
+        font-size: 12px;
+    }
+
+    .title4card::after
+    {
+        width: 150px;
+    }
+
+    .inspiration__view-all
+    {
+        font-size: 10px;
+        padding-right: 40px;
+    }
+
+    .inspiration__card-title
+    {
+        font-size: 18px;
+    }
+
+    .inspiration__picture-top
+    {
+        height: 100px;
+    }
+}
+
+@media (max-width:390px)
+{
+    .inspiration__card-title
+    {
+        font-size: 14px;
+        left: 7px;
+        bottom: 7px;
+    }
+
+    .inspiration__picture-top
+    {
+        height: 110px;
+    }
+
+    .inspiration__picture-bottom
+    {
+        height: 70px;
+    }
+}
+
+@media (max-width:350px)
+{
+    .title4card
+    {
+        font-size: 10px;
+    }
+
+    .inspiration__view-all
+    {
+        font-size: 8px;
+    }
 }

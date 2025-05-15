@@ -34,7 +34,7 @@
                 </nav>
                 <div class="logo">
                     <a href="#">
-                        <img src="images/icons/sakura.png" width="40" height="40">
+                        <img src="images/icons/sakura.png" class="img__logo">
                     </a>
                 </div>
                 <nav class="header__nav">
@@ -51,10 +51,37 @@
                             </a>
                         </li>
                     </ul>
+                    <button class="header__btn" id="menuBtn" type="button">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </button>
                 </nav>
             </div>
         </div>
-    </header>
+    <nav class="header__menu" id="menu">
+        <ul class="header__list--mobile">
+            <li class="header__link">
+                <a href="pages/tour.html">Новости</a>
+            </li>
+            <li class="header__link">
+                <a href="pages/fortourists.html">Для туристов</a>
+            </li>
+            <li class="header__link">
+                <a href="#">Виза</a>
+            </li>
+            <li class="header__link">
+                <a href="pages/jrpass.html">JR Pass</a>
+            </li>
+            <li class="header__link">
+                <a href="pages/aboutus.html">О нас</a>
+            </li>
+            <li class="header__link">
+                <a href="pages/tour.html">Туры</a>
+            </li>
+        </ul>
+    </nav>
+</header>
 <main class="main">
     <section class="intro">
         <div class="container">
@@ -171,19 +198,19 @@
                     </div>
                     <div class="inspiration__card large-image">
                         <img src="/images/kioto.jpg" alt="Хаконе" class="inspiration__picture inspiration__picture-top">
-                        <p class=inspiration__card-title>Киото</p>
+                        <p class="inspiration__card-title">Киото</p>
                     </div>
-                    <div class="inspiration__card small-image">
+                    <div class="inspiration__card small-image ">
                         <img src="/images/tokyo-card.jpg" alt="Хаконе" class="inspiration__picture inspiration__picture-bottom">
-                        <p class=inspiration__card-title>Токио</p>
+                        <p class="inspiration__card-title title__bottom">Токио</p>
                     </div>
-                    <div class="inspiration__card small-image">
+                    <div class="inspiration__card small-image title__bottom">
                         <img src="/images/nagano-card.jpg" alt="Хаконе" class="inspiration__picture inspiration__picture-bottom">
-                        <p class=inspiration__card-title>Нагано</p>
+                        <p class="inspiration__card-title title__bottom">Нагано</p>
                     </div>
-                    <div class="inspiration__card small-image">
+                    <div class="inspiration__card small-image title__bottom">
                         <img src="/images/okinawa-card.jpg" alt="Хаконе" class="inspiration__picture inspiration__picture-bottom">
-                        <p class=inspiration__card-title>Окинава</p>
+                        <p class="inspiration__card-title title__bottom">Окинава</p>
                     </div>
                 </div>
             </div>
@@ -288,7 +315,7 @@
                     </div>
         
                     <!-- Третья колонка -->
-                    <div class="tour__column">
+                    <div class="tour__column centered-item">
                         <p class="title4tour">Популярные туры</p>
                         <div class="card__tour">
                             <img src="/images/tokyo(preview).jpg" class="card__img">
@@ -346,4 +373,5 @@
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/headerscroll.js"></script>
+<script src="js/HeaderMobileMenu.js"></script>
 </html> 
