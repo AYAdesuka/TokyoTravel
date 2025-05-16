@@ -113,6 +113,7 @@
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     gap: 30px;
+    margin-right: 30px;
 }
 
 .contact__example
@@ -153,7 +154,108 @@
 }
 
 
+.map__container
+{
+    width: 100%;
+    aspect-ratio: 1250 / 450;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
 .google__map
 {
+    position: relative;
     margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    z-index: 52;
+}
+
+
+@media (max-width:1100px)
+{
+    .img__office
+    {
+        width: 500px;
+        height: 300px;
+    }
+}
+
+
+@media (max-width:990px)
+{
+    .img__office
+    {
+        width: 450px;
+        height: 250px;
+    }
+}
+
+
+@media (max-width:950px)
+{
+    .img__contact
+    {
+        height: 30px;
+        width: 30px;
+    }
+    .text__contact
+    {
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width:990px)
+{
+    .img__office
+    {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+
+@media (max-width:877px)
+{
+    
+    .img__contact
+    {
+        height: 20px;
+        width: 20px;
+    }
+
+    .img__office
+    {
+        width: 350px;
+        height: 150px;
+    }
+}
+
+@media (max-width:760px)
+{
+    .contact__inner
+    {
+        flex-direction: column-reverse;
+    }
+
+    .img__office
+    {
+        margin: 0 auto;
+        height: 200px;
+    }
+    
+    .contact__list
+    {
+        margin: 15px auto 0 auto;
+    }
+}
+
+@media (max-width:550px)
+{
+    .advantages__inner
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
